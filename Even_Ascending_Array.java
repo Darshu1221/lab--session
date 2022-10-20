@@ -1,3 +1,10 @@
+/*
+ * WAP to print even number and print in ascending order
+ * Date:- 20/10/22
+ * Name :- Darshana Parab
+ */
+
+
 import java.util.Arrays;
 import java.util.Scanner;//importing scanner class
 public class Even_Ascending_Array{
