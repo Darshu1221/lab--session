@@ -1,0 +1,18 @@
+import java.util.*;
+public class ArraySorting {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        Integer[] arr = new Integer[5];
+        int i;
+        System.out.println("Please Enter 5 elements in the Array : ");
+        for (i = 0; i < 5; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        Arrays.sort(arr);
+        System.out.println("Sorted Array in Ascending Order " + Arrays.toString(arr));
+
+        Arrays.sort(arr,Comparator.reverseOrder());
+        System.out.println("Sorted Array in Descending Order " + Arrays.toString(arr));
+    }
+}
