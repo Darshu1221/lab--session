@@ -1,3 +1,9 @@
+/*
+ * Wap to print ascending and descending order of an array
+ * Date:-20/10/22
+ * Name:- Darshana Parab
+ */
+
 import java.util.*;
 public class ArraySorting {
     public static void main(String[] args) {
