@@ -11,13 +11,12 @@ m = sc.nextInt();
 System.out.print("Enter the number of columns: ");   
 //taking column as input  
 n = sc.nextInt();   
-// Declaring the two-dimensional matrix   
+
 int array[][] = new int[m][n];   
 // Read the matrix values   
 System.out.println("Enter the elements of the array: ");   
 //loop for row  
 for (i = 0; i < m; i++)   
-//inner for loop for column  
 for (j = 0; j < n; j++)   
 array[i][j] = sc.nextInt();   
 //accessing array elements   
